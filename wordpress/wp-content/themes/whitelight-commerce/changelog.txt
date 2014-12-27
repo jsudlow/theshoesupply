@@ -1,0 +1,59 @@
+*** Whitelight Commerce Changelog ***
+
+2012.04.23 - version 1.0.15
+ * functions.php - localisation fix, now using load_child_theme_textdomain()
+
+2012.04.19 - version 1.0.14
+ * header.php - pagination fix
+ * index.php - pagination fix
+ * functions.php - localisation fix
+
+2012.04.10 - version 1.0.13
+ * woocommerce/css/style.css - Styles for homepage shop panel clearfix
+ * includes/homepage-shop-panel.php - Clear fix for homepage shop panel
+
+2012.04.04 - version 1.0.12
+ * index.php, /includes/hompepage-shop-panel.php - stripslashes fix
+
+2012.04.02 - version 1.0.11
+ * functions.php - localisation preparation
+ * lang/en_GB.po - added .po for localisation
+
+2012.03.22 - version 1.0.10
+ * index.php - fixed homepage layout bug
+
+2012.03.19 - version 1.0.9
+ * woocommerce/css/style.css - Added AJAX loader for add to cart button.
+
+2012.02.28 - version 1.0.8
+ * header.php - added missing search box code for menu area
+ * woocommerce/css/style.css - Styling for header search
+
+2012.02.24 - version 1.0.7
+ * /includes/widgets/widget-woo-componentbase.php - added option for blog alternate layout
+ 
+2012.02.22 - version 1.0.6
+ * index.php - cater for new blog alt layout panel from parent theme
+ 
+2012.02.20 - version 1.0.5
+ * woocommerce/css/style.css - Fixed z-index for product lists (was conflicting with nav)
+
+2012.02.17 - version 1.0.4
+ * style.css - IE fix
+ * header.php - Nav toggle for small resolutions
+
+2012.02.13 - version 1.0.3
+ * woocommerce/css/style.css - Styling for WooCommerce error message, styling for product review textarea on dark styles.
+ * includes/homepage-shop-panel.php - Adding global $woocommerce to fix fatal error.
+
+2012.02.09 - version 1.0.2
+ * functions.php - loaded uniform.js instead of third-party.js (that is loaded in parent theme)
+ * includes/js/third-party.js - delete
+ * includes/js/uniform.js - load this on its own instead of in third-party.js 
+ * woocommerce/css/style.css - IE8 fixes & fixed stretched portfolio images on homepage
+
+2012.02.08 - version 1.0.1
+ * woocommerce/woocommerce-layout.php - Fixed layout for sitemap template
+
+2012.02.07 - version 1.0
+ * First release!

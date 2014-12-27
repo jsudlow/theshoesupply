@@ -1,0 +1,11 @@
+/*
+Theme Name:     Whitelight Commerce
+Theme URI:      http: //woothemes.com/
+Description:    Child theme which optimises Whitelight for WooCommerce compatibility 
+Author:         WooThemes
+Author URI:     http: //woothemes.com
+Template:       whitelight
+Version:        1.0.15
+*/
+
+@import url("../whitelight/style.css");
